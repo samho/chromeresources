@@ -23,9 +23,9 @@ def merge_files(target_path, prefix='part'):
                 break
             part_number += 1
 
-# split_file(f'./Apifox-windows-latest.zip', "apifox")
-merge_files(f'./Apifox-windows-latest.zip', "apifox")
-# merge_files(f'循序渐进Vue.js 3前端开发实战.pdf', "Vue3")
-# merge_files(f'TypeScript入门与实战.pdf', "Typescript")
-# merge_files(f'Python计算机视觉编程.pdf', "PythonImage")
-# merge_files(f'Python机器学习基础教程.pdf', "MachineBasic")
+split_file(f'./tujiellm.zip', "tujiellm")
+split_file(f'./sheruqianchu-Kubernetes.zip', "sheruqianchu-Kubernetes")
+split_file(f'./Rust.zip', "Rust")
+# merge_files(f'Rust.zip', "Rust")
+# merge_files(f'sheruqianchu-Kubernetes.zip', "sheruqianchu-Kubernetes")
+# merge_files(f'tujiellm.zip', "tujiellm")
